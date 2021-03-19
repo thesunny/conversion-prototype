@@ -1,0 +1,158 @@
+{
+  "object": "value",
+  "document": {
+    "object": "document",
+    "data": {},
+    "nodes": [
+      {
+        "object": "block",
+        "type": "TITLE",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              { "object": "leaf", "text": "What are Cards?", "marks": [] }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "MEDIUM_HEADING",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              { "object": "leaf", "text": "Cards are the ", "marks": [] },
+              {
+                "object": "leaf",
+                "text": "building",
+                "marks": [
+                  { "object": "mark", "type": "HIGHLIGHT", "data": {} },
+                  {
+                    "object": "mark",
+                    "type": "TEXT_COLOR",
+                    "data": { "color": "#2f3ba2" }
+                  }
+                ]
+              },
+              {
+                "object": "leaf",
+                "text": " blocks of knowledge in Guru. They organize and store all of your teams information. \n",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          },
+          {
+            "object": "inline",
+            "type": "IMAGE",
+            "isVoid": true,
+            "data": {
+              "src": "https://content.api.getguru.com/files/view/672d841e-1d60-4960-906f-3f9bfd0ccd52",
+              "width": "444",
+              "fileName": "Screen Shot 2020-03-11 at 4.55.19 PM.png",
+              "editing": false
+            },
+            "nodes": [
+              {
+                "object": "text",
+                "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+              }
+            ]
+          },
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "Cards are:", "marks": [] }]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              { "object": "leaf", "text": "\n• ", "marks": [] },
+              {
+                "object": "leaf",
+                "text": "Short\n• Specific\n• Verified by experts on your team\n• Easy to share",
+                "marks": [{ "object": "mark", "type": "BOLD", "data": {} }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
+                "object": "leaf",
+                "text": "You can use Guru cards to host FAQs, canned responses, teammate bios, and more. Check out ",
+                "marks": []
+              },
+              {
+                "object": "leaf",
+                "text": "\"What goes in a Card?\"",
+                "marks": [{ "object": "mark", "type": "BOLD", "data": {} }]
+              },
+              {
+                "object": "leaf",
+                "text": " for more information!",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          }
+        ]
+      }
+    ]
+  }
+}

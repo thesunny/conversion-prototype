@@ -1,0 +1,87 @@
+{
+  "object": "value",
+  "document": {
+    "object": "document",
+    "data": {},
+    "nodes": [
+      {
+        "object": "block",
+        "type": "TITLE",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              { "object": "leaf", "text": "Conversion Test", "marks": [] }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              { "object": "leaf", "text": "This is some ", "marks": [] },
+              {
+                "object": "leaf",
+                "text": "bold",
+                "marks": [{ "object": "mark", "type": "BOLD", "data": {} }]
+              },
+              { "object": "leaf", "text": ", ", "marks": [] },
+              {
+                "object": "leaf",
+                "text": "italic",
+                "marks": [{ "object": "mark", "type": "ITALIC", "data": {} }]
+              },
+              { "object": "leaf", "text": ", ", "marks": [] },
+              {
+                "object": "leaf",
+                "text": "underlined",
+                "marks": [{ "object": "mark", "type": "UNDERLINE", "data": {} }]
+              },
+              { "object": "leaf", "text": " text and a ", "marks": [] }
+            ]
+          },
+          {
+            "object": "inline",
+            "type": "LINK",
+            "isVoid": false,
+            "data": {
+              "href": "https://www.google.com/",
+              "hasPlaceholder": false,
+              "editing": false
+            },
+            "nodes": [
+              {
+                "object": "text",
+                "leaves": [{ "object": "leaf", "text": "link", "marks": [] }]
+              }
+            ]
+          },
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          }
+        ]
+      }
+    ]
+  }
+}
