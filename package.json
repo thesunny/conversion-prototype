@@ -1,7 +1,7 @@
 {
-  "name": "cli-starter-kit",
+  "name": "conversion-prototype",
   "version": "0.1.0",
-  "description": "Starter kit for node.js based cli",
+  "description": "Prototype for converting from legacy to next types",
   "main": "index.js",
   "author": "Sunny Hirai",
   "license": "UNLICENSED",
