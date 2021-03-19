@@ -1,48 +1,14 @@
-# CLI Starter Kit
+# README
 
-## How to get started with `cli-starter-kit`
+An example of the conversion from legacy to next.
 
-```sh
-# in your project root, initialize an empty git repo
-git init
+Supports:
 
-# pull next-starter-kit
-git pull git@github.com:thesunny/cli-starter-kit.git
+- Title
+- Paragraphs
+- bold/italic/underline
+- Links
 
-# Open the directory and `package.json`
-code . package.json
-```
+I think it's a pretty straight path to add everything else although there are some things that I think should be changed in the next schema which will cause a slight shift in the data.
 
-Edit `package.json` to fit your needs
-
-```json
-{
-  "name": "name-of-your-package",
-  "version": "0.1.0",
-  "description": "Description of your package"
-}
-```
-
-## How to update
-
-```sh
-# use the built in script
-yarn update:kit
-
-# or manually re-pull cli-starter-kit
-git pull git@github.com:thesunny/cli-starter-kit.git
-```
-
-## How to publish
-
-```sh
-yarn publish
-```
-
-## Resources
-
-Starter kit for creating NPM packages with executable scripts.
-
-[A guide to creating a NodeJS command-line package](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e)
-
-[Write a simple node executable with typescript and vscode](https://medium.com/wizardnet972/write-a-simple-node-executable-with-typescript-and-vscode-97c58adca02d)
+For example, I notice that images are done as an inline. I'd recommend switching these to blocks. It will cause a bit of pain at the outset (some people relying on inline will have their text pushed to the previous or next block), but I think this will serve you better in the long run.
