@@ -13,7 +13,7 @@ I think it's a pretty straight path to add everything else although there are so
 
 For example, I notice that images are done as an inline. I'd recommend switching these to blocks. It will cause a bit of pain at the outset (some people relying on inline will have their text pushed to the previous or next block), but I think this will serve you better in the long run.
 
-## Trying It Out
+## Getting Started
 
 ```sh
 # install packages
