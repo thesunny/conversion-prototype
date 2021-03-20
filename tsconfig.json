@@ -17,5 +17,5 @@
     "isolatedModules": true
   },
   "exclude": ["node_modules"],
-  "include": ["scripts/*.ts"]
+  "include": ["lib/**/*.ts"]
 }

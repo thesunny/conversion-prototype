@@ -44,10 +44,12 @@ export function convertTextAndInlineNode(node: any): TextOrInline[] {
       return convertTextObject(node)
     case "inline":
       return [convertInlineLink(node)]
+    default:
+      throw new Error(`Unhandled node.object type`)
   }
 }
 
-export function convertTextAndInlineNodes(nodes: any[]): CustomText[] {
+export function convertTextAndInlineNodes(nodes: any[]): TextOrInline[] {
   const nextNodes = []
   for (const node of nodes) {
     nextNodes.push(...convertTextAndInlineNode(node))

@@ -27,19 +27,19 @@ export type RootElement =
 
 export type ParagraphElement = {
   type: "paragraph"
-  children: CustomText[]
+  children: TextOrInline[]
 }
 
 export type HeadingElement = {
   type: "heading"
   level: 1 | 2 | 3
-  children: CustomText[]
+  children: TextOrInline[]
 }
 
 export type ListElement = {
   type: "ul" | "ol" | "checked" | "unchecked"
   depth: number
-  children: CustomText[]
+  children: TextOrInline[]
 }
 
 export type ImageElement = {
