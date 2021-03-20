@@ -1,4 +1,13 @@
-import { CustomText, LinkElement, RootElement, TextOrInline } from "./types"
+import {
+  CustomText,
+  LinkElement,
+  RootElement,
+  TableRowElement,
+  TableElement,
+  TableCellElement,
+  TextOrInline,
+} from "./types"
+import { log } from "./test/utils"
 
 export function convertTextLeaf(node: any): CustomText {
   if (node.object !== "leaf") {
@@ -74,6 +83,8 @@ export function convertBlockNode(node: any): RootElement {
         type: "paragraph",
         children: convertTextAndInlineNodes(node.nodes),
       }
+    case "TABLE":
+      return convertTable(node)
     default:
       throw new Error(`Unhandled node.type of ${JSON.stringify(node.type)}`)
   }
@@ -88,4 +99,32 @@ export function convertDocument(node: any) {
     throw new Error("Expected top level to have `object`==`value`")
   }
   return convertBlockNodes(node.document.nodes)
+}
+
+function convertTable(node: any): TableElement {
+  if (node.type !== "TABLE") {
+    throw new Error(`Expected node.type to be "TABLE"`)
+  }
+  return {
+    type: "table",
+    expanded: false,
+    children: node.nodes.map(convertTableRow),
+  }
+}
+
+function convertTableRow(node: any): TableRowElement {
+  if (node.type !== "TABLE_ROW") {
+    throw new Error(`Expected node.type to be "TABLE_ROW`)
+  }
+  return {
+    type: "tr",
+    children: node.nodes.map(convertTableCell),
+  }
+}
+
+function convertTableCell(node: any): TableCellElement {
+  return {
+    type: "td",
+    children: convertTextAndInlineNodes(node.nodes),
+  }
 }

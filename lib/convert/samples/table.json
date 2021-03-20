@@ -1,0 +1,141 @@
+{
+  "object": "value",
+  "document": {
+    "object": "document",
+    "data": {},
+    "nodes": [
+      {
+        "object": "block",
+        "type": "TITLE",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "Table", "marks": [] }]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "TABLE",
+        "isVoid": false,
+        "data": { "editing": false, "deleteOnClose": false },
+        "nodes": [
+          {
+            "object": "block",
+            "type": "TABLE_ROW",
+            "isVoid": false,
+            "data": {},
+            "nodes": [
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "alpha 1", "marks": [] }
+                    ]
+                  }
+                ]
+              },
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "bravo 1", "marks": [] }
+                    ]
+                  }
+                ]
+              },
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "charlie 1", "marks": [] }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "object": "block",
+            "type": "TABLE_ROW",
+            "isVoid": false,
+            "data": {},
+            "nodes": [
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "alpha 2", "marks": [] }
+                    ]
+                  }
+                ]
+              },
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "bravo 2", "marks": [] }
+                    ]
+                  }
+                ]
+              },
+              {
+                "object": "block",
+                "type": "TABLE_CELL",
+                "isVoid": false,
+                "data": {},
+                "nodes": [
+                  {
+                    "object": "text",
+                    "leaves": [
+                      { "object": "leaf", "text": "charlie 2", "marks": [] }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "isVoid": false,
+        "data": {},
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [{ "object": "leaf", "text": "", "marks": [] }]
+          }
+        ]
+      }
+    ]
+  }
+}

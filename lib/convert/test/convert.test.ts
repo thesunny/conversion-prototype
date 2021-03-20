@@ -4,11 +4,8 @@ import {
   convertTextLeaf,
   convertTextAndInlineNode,
 } from "../legacy-to-next"
-import CONVERT_TEST_CARD_JSON from "./convert-test-card.json"
-
-function log(json: any) {
-  console.log(JSON.stringify(json, null, 2))
-}
+import CONVERT_TEST_CARD_JSON from "../samples/simple-card.json"
+import { log } from "./utils"
 
 describe("test", () => {
   describe("text and inlines", () => {

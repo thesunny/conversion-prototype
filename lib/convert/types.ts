@@ -67,14 +67,15 @@ export type LinkElement = {
 export type TableElement = {
   type: "table"
   expanded: boolean
-  children: TrElement[]
+  children: TableRowElement[]
 }
 
-export type TrElement = { type: "tr"; children: TdElement[] }
+export type TableRowElement = { type: "tr"; children: TableCellElement[] }
 
-export type TdElement = {
+export type TableCellElement = {
   type: "td"
-  children: Exclude<RootElement, TableElement>
+  // children: Exclude<RootElement, TableElement>
+  children: TextOrInline[]
 }
 
 export type FileElement = { type: "file"; children: VoidText[] }
