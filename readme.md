@@ -22,3 +22,11 @@ yarn
 # run unit tests
 yarn test
 ```
+
+## Testing Types
+
+You can make sure that types are compiling with:
+
+```sh
+yarn tsc
+```
